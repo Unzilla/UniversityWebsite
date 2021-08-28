@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #002032;
+}
+
+.header a {
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.header a:link {
+    font-style: normal;
+}
+
+.header a:visited {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.header a:active {
+    text-decoration: underline;
+}
+
+.header a:hover {
+    text-decoration: underline;
+    border: 1px solid #60757D;
+    background-color: #60757D;
+    color: white !important;
+    font-weight: 400 !important;
+}
+
+.carousel-item img {
+    height: 400px;
+}
+
+.apply img {
+    width: 500px;
+    height: 500px;
+}
+
+.desc {
+    background-color: #002032;
+    color: white;
+}
+
+.desc .btn:hover {
+    color: black;
+}
+
+.news h1,
+.upcomingevents h1 {
+    color: #0c2340 !important;
+    font-weight: 400;
+}
+
+.news .card {
+    margin: 0 auto;
+    /* Added */
+    float: none;
+    /* Added */
+    margin-bottom: 10px;
+    height: 500px;
+    /* Added */
+    border: none;
+}
+
+.advertise {
+    background-color: #F8F9FA;
+}
+
+.adv,
+.upcomingevents {
+    padding-left: 100px;
+    text-align: center;
+}
+
+.upcomingevents .card {
+    height: 200px;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px !important;
+    /* box-shadow: 1px 1px 2px 3px; */
+}
+
+.upcomingevents h3 {
+    color: teal;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.upcomingevents .card-title {
+    font-size: 24px !important;
+    font-weight: 400 !important;
+}
+
+.quote {
+    background-color: #002032;
+}
+
+footer {
+    background-color: #002032 !important;
+}
